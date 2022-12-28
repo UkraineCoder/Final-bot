@@ -1,0 +1,11 @@
+aiogram~=2.18
+aioredis~=2.0
+environs==9.5.0
+
+SQLAlchemy~=1.4.39
+APScheduler~=3.9.1
+apscheduler_di
+redis
+asyncpg
+pydantic~=1.9.1
+aiohttp~=3.8.1

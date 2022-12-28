@@ -1,0 +1,589 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-10-17 02:16+0300\n"
+"PO-Revision-Date: 2022-10-08 21:09+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: handlers/daily_bonus.py:15
+msgid ""
+"Пока бонус не доступный!\n"
+"Он станет доступным завтра."
+msgstr ""
+
+#: handlers/daily_bonus.py:25
+msgid "Вы получили {bonus_num} ₴!"
+msgstr ""
+
+#: handlers/inline.py:17
+msgid ""
+"📌 Название: {title}\n"
+"📝 Описание: {description}\n"
+"💰 Цена: {price}\n"
+"{photo_link}"
+msgstr ""
+
+#: handlers/inline.py:25
+msgid "🛍 Показать товар"
+msgstr ""
+
+#: handlers/inline.py:43
+msgid "Все товары закончились"
+msgstr ""
+
+#: handlers/misc_handlers.py:12
+msgid "Нажмите на команду /start"
+msgstr ""
+
+#: handlers/misc_handlers.py:19 handlers/misc_handlers.py:21
+#: handlers/registration.py:36 handlers/registration.py:45
+#: handlers/registration.py:50 keyboards/inline/main_buttons.py:52
+msgid "🗂 Главное меню"
+msgstr ""
+
+#: handlers/profile.py:16
+msgid ""
+"👤 Ваш профиль\n"
+"\n"
+"🔈  Role: {role}\n"
+"💸  Баланс: {balance} ₴\n"
+"🔑  Ваш код: {telegram_id}\n"
+"🔗  Ваша реферальная ссылка:  {referral_link}"
+msgstr ""
+
+#: handlers/profile.py:29
+msgid "Ваш рефер: {referrer}"
+msgstr ""
+
+#: handlers/profile.py:32
+msgid "У вас нет рефера!"
+msgstr ""
+
+#: handlers/profile.py:42
+msgid ""
+"Ваши рефералы: \n"
+"{referrals}"
+msgstr ""
+
+#: handlers/profile.py:45
+msgid "У вас еще нет рефералов!"
+msgstr ""
+
+#: handlers/purchase.py:29
+msgid ""
+"📫 Артикл: {id}\n"
+"📌 Название: {title}\n"
+"💎 Количество: {quantity}\n"
+" 📝 Описание: {description}\n"
+"💰 Цена: {price}"
+msgstr ""
+
+#: handlers/purchase.py:37 handlers/purchase.py:53 handlers/purchase.py:94
+#: handlers/purchase.py:129 handlers/purchase.py:153 handlers/purchase.py:222
+msgid "❌ Товар был удален!"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:212 handlers/purchase.py:47
+msgid "✏️ Укажите количество товара"
+msgstr ""
+
+#: handlers/purchase.py:58
+msgid ""
+"❌ Ошибка!\n"
+"🔖 Укажите верное количество товара"
+msgstr ""
+
+#: handlers/purchase.py:77
+msgid ""
+"❌ Ошибка!\n"
+" Количество товаров не должно быть ноль"
+msgstr ""
+
+#: handlers/purchase.py:82
+msgid ""
+"✅ Отлично!\n"
+"Осталось оплатить товар!\n"
+"\n"
+"💰 Ваш баланс: {balance} ₴"
+msgstr ""
+
+#: handlers/purchase.py:89
+msgid ""
+"❌ Ошибка!\n"
+"🔖 Не хватает товара на складе\n"
+"В наличии {quantity}"
+msgstr ""
+
+#: handlers/purchase.py:108
+msgid "У вас недостаточно средств"
+msgstr ""
+
+#: handlers/purchase.py:117 handlers/purchase.py:211
+msgid "Спасибо за покупку! Ожидайте отправку"
+msgstr ""
+
+#: handlers/purchase.py:124 handlers/purchase.py:217
+msgid ""
+"❌ Ошибка.\n"
+"На складе уже не хватает столько товаров.\n"
+"Попробуйте заказать еще раз! /start"
+msgstr ""
+
+#: handlers/purchase.py:160
+msgid "Почтой"
+msgstr ""
+
+#: handlers/purchase.py:163
+msgid "Обычная коробка"
+msgstr ""
+
+#: handlers/purchase.py:165
+msgid "Почтой обычной"
+msgstr ""
+
+#: handlers/purchase.py:171
+msgid "Почтой (vip)"
+msgstr ""
+
+#: handlers/purchase.py:174
+msgid "Супер прочная коробка"
+msgstr ""
+
+#: handlers/purchase.py:176
+msgid "Почтой срочной - DHL (3 дня)"
+msgstr ""
+
+#: handlers/purchase.py:187
+msgid "❗️ Выберите кнопку"
+msgstr ""
+
+#: handlers/registration.py:27
+msgid ""
+"Поздравляю, вы получили доступ! 🎉\n"
+"Вы были приглашены пользователем {check_user}!\n"
+"Вы можете получить 10 бонусных гривен, если пригласите рефералов\n"
+"Ваша реферальная ссылка: {referral_link}"
+msgstr ""
+
+#: handlers/registration.py:38 handlers/registration.py:112
+msgid ""
+"❌ Ошибка \n"
+"У Вас нет доступа! \n"
+"Чтобы использовать этого бота введите код приглашения, \n"
+"либо пройдите по реферальной ссылке"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:88 handlers/registration.py:55
+msgid "🎛 Административная панель"
+msgstr ""
+
+#: handlers/registration.py:62
+msgid "✏️ Введите код приглашения:"
+msgstr ""
+
+#: handlers/registration.py:66 handlers/registration.py:162
+#: handlers/registration.py:186
+msgid "Вас уже пригласил {referrer}!"
+msgstr ""
+
+#: handlers/registration.py:78 handlers/registration.py:170
+msgid "Вы не можете пригласить сами себя!"
+msgstr ""
+
+#: handlers/registration.py:90 handlers/registration.py:183
+msgid "У вас новый реферал: {user}!"
+msgstr ""
+
+#: handlers/registration.py:96
+msgid ""
+"❌ Ошибка \n"
+"Код неверный"
+msgstr ""
+
+#: handlers/registration.py:103
+msgid ""
+"❌ Ошибка \n"
+"Код может состоять только из цифр!"
+msgstr ""
+
+#: handlers/registration.py:129
+msgid ""
+"Вам необходимо подписаться на следующий канал: \n"
+"{channels_format}"
+msgstr ""
+
+#: handlers/registration.py:147
+msgid ""
+"Подписка на канал <b>{channel_title}</b> Оформлена!\n"
+"\n"
+msgstr ""
+
+#: handlers/registration.py:157
+msgid ""
+"Подписка на канал <b>{channel_title}</b> не оформлена! <a "
+"href='{invite_link}'>Нужно подписаться.</a>\n"
+"\n"
+msgstr ""
+
+#: handlers/admin_panel/add_item.py:18 handlers/admin_panel/change_item.py:116
+msgid "✏️ Укажите название товара"
+msgstr ""
+
+#: handlers/admin_panel/add_item.py:25 handlers/admin_panel/change_item.py:148
+msgid "✏️ Укажите описание товара"
+msgstr ""
+
+#: handlers/admin_panel/add_item.py:33 handlers/admin_panel/add_item.py:47
+#: handlers/admin_panel/broadcast.py:41 handlers/admin_panel/broadcast.py:56
+#: handlers/admin_panel/change_item.py:136
+#: handlers/admin_panel/change_item.py:168
+msgid ""
+"❌ Ошибка\n"
+"✏️ Вы ввели слишком много текста"
+msgstr ""
+
+#: handlers/admin_panel/add_item.py:39
+msgid ""
+"✏️ Укажите стоимость товара.\n"
+"Без пробелов и других символов"
+msgstr ""
+
+#: handlers/admin_panel/add_item.py:53 handlers/admin_panel/broadcast.py:62
+#: handlers/admin_panel/change_item.py:174
+msgid ""
+"❌ Ошибка\n"
+"✏️ Укажите только текст"
+msgstr ""
+
+#: handlers/admin_panel/add_item.py:59
+msgid "✏️ Укажите количество товара\n"
+msgstr ""
+
+#: handlers/admin_panel/add_item.py:67 handlers/admin_panel/change_item.py:246
+msgid "🏞 Отправьте фотографию товара"
+msgstr ""
+
+#: handlers/admin_panel/add_item.py:75
+msgid ""
+"❌ Ошибка\n"
+"🔖 Укажите только цифры, без пробелов и других символов.\n"
+"Также цифр не должно быть слишком много."
+msgstr ""
+
+#: handlers/admin_panel/add_item.py:94 handlers/admin_panel/broadcast.py:82
+#: handlers/admin_panel/change_item.py:270
+msgid ""
+"❌ Ошибка\n"
+"🏞 Пришлите фото"
+msgstr ""
+
+#: handlers/admin_panel/add_item.py:113
+msgid "🎉 Вы создали товар"
+msgstr ""
+
+#: handlers/admin_panel/add_item.py:121 handlers/admin_panel/add_item.py:129
+msgid "❌ Вы отменили создание товара"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:25
+msgid "✏️ Укажите название статьи"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:33
+msgid "✏️ Укажите описание статьи"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:48
+msgid "🏞 Отправьте фото"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:73
+msgid ""
+"📰 Новость создана!\n"
+"Вы хотите отправить её сейчас или запланировать отправку?"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:93
+msgid "❗️ Выберите нужную кнопку!"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:119
+msgid "✅ Рассылка выполнена!"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:126
+msgid "🗓 Пожалуйста выберите дату"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:132
+msgid "⏰ В сколько часов нужно отправить новость?"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:153
+msgid "❗️ Вы не можете отправить новость в прошлое"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:157
+msgid "❗️ Выберите дату отправки!"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:163
+msgid "⏰ В сколько минут нужно отправить новость?"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:173
+msgid ""
+"❌ Ошибка\n"
+"Отправьте число от 0-23 и без лишних символов"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:221
+msgid "✅ Рассылка запланирована!"
+msgstr ""
+
+#: handlers/admin_panel/broadcast.py:228
+msgid ""
+"❌ Ошибка\n"
+"Отправьте число от 0-59 и без лишних символов"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:33
+msgid "📝 Что вы хотите редактировать?"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:36
+#: handlers/admin_panel/change_item.py:85
+#: handlers/admin_panel/change_item.py:105
+msgid "Добавьте хотя бы один товар!"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:47
+msgid "✅ Запись удалена"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:49
+#: handlers/admin_panel/change_item.py:120
+#: handlers/admin_panel/change_item.py:152
+#: handlers/admin_panel/change_item.py:190
+#: handlers/admin_panel/change_item.py:216
+#: handlers/admin_panel/change_item.py:250
+msgid "Кажется товар был удален"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:56
+#: handlers/admin_panel/change_item.py:69
+msgid ""
+"📫 Артикл: {id}\n"
+"📌 Название: {title}\n"
+"💎 Количество: {quantity}\n"
+" 📝 Описание: {description}\n"
+"💰 Цена: {price}\n"
+"{photo_link}"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:129
+msgid "✅ Название было изменено"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:161
+msgid "✅ Описание было изменено"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:186
+msgid "✏️ Укажите цену товара"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:199
+msgid "✅ Цену было изменено"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:225
+msgid "✅ Количество было изменено"
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:232
+msgid ""
+"❌ Ошибка\n"
+"🔖 Укажите только цифры, без пробелов и других символов\n"
+"Также цифр не должно быть слишком много."
+msgstr ""
+
+#: handlers/admin_panel/change_item.py:263
+msgid "✅ Фото было изменено"
+msgstr ""
+
+#: keyboards/inline/broadcast_buttons.py:10
+msgid "🗞 Отравить сейчас"
+msgstr ""
+
+#: keyboards/inline/broadcast_buttons.py:12
+msgid "⏰ Запланировать отправку"
+msgstr ""
+
+#: keyboards/inline/buy_button.py:15
+msgid "🛒 Купить товар"
+msgstr ""
+
+#: keyboards/inline/buy_button.py:25
+msgid "💰 Оплата Балансом"
+msgstr ""
+
+#: keyboards/inline/buy_button.py:26
+msgid "💳 Оплата Картой"
+msgstr ""
+
+#: keyboards/inline/change_button.py:13
+msgid "⚒ Редактировать"
+msgstr ""
+
+#: keyboards/inline/change_button.py:14
+msgid "❌ Удалить"
+msgstr ""
+
+#: keyboards/inline/change_button.py:63
+msgid "📌 Название"
+msgstr ""
+
+#: keyboards/inline/change_button.py:64
+msgid "📝 Описание"
+msgstr ""
+
+#: keyboards/inline/change_button.py:65
+msgid "🏞 Фотография"
+msgstr ""
+
+#: keyboards/inline/change_button.py:66
+msgid "💎 Количество"
+msgstr ""
+
+#: keyboards/inline/change_button.py:67
+msgid "💰 Цена"
+msgstr ""
+
+#: keyboards/inline/main_buttons.py:23 keyboards/inline/main_buttons.py:36
+msgid "💎 Ежедневный бонус"
+msgstr ""
+
+#: keyboards/inline/main_buttons.py:24 keyboards/inline/main_buttons.py:37
+msgid "🌐 Профиль"
+msgstr ""
+
+#: keyboards/inline/main_buttons.py:25 keyboards/inline/main_buttons.py:38
+msgid "👄 Изменить язык"
+msgstr ""
+
+#: keyboards/inline/main_buttons.py:39
+msgid "🔐 Административная панель"
+msgstr ""
+
+#: keyboards/inline/main_buttons.py:49
+msgid "🎁 Добавить товар"
+msgstr ""
+
+#: keyboards/inline/main_buttons.py:50
+msgid "🔧 Редактирование или Удаление"
+msgstr ""
+
+#: keyboards/inline/main_buttons.py:51
+msgid "🔊 Рассылка"
+msgstr ""
+
+#: keyboards/inline/main_buttons.py:63
+msgid "✅ Подтвердить"
+msgstr ""
+
+#: keyboards/inline/main_buttons.py:74
+msgid ""
+"Информация которую указали:\n"
+"\n"
+"Наименование товара: {title}\n"
+"Описание товара: {description}\n"
+"Цена товара: {price}\n"
+"Добавить товар?"
+msgstr ""
+
+#: keyboards/inline/profile_buttons.py:8
+msgid "Мой рефер"
+msgstr ""
+
+#: keyboards/inline/profile_buttons.py:9
+msgid "Мои рефералы"
+msgstr ""
+
+#: keyboards/inline/registration_buttons.py:8
+msgid "🔑 Код приглашения"
+msgstr ""
+
+#: keyboards/inline/registration_buttons.py:9
+msgid "✅ Подпишитесь на наш канал"
+msgstr ""
+
+#: keyboards/inline/registration_buttons.py:18
+msgid "🔄 Проверить подписку"
+msgstr ""
+
+#: misc/constants.py:17
+msgid "❌ Отменить"
+msgstr ""
+
+#~ msgid "(📝 Описание"
+#~ msgstr ""
+
+#~ msgid "(🏞 Фотография"
+#~ msgstr ""
+
+#~ msgid "(💎 Количество"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "👤 Ваш профиль\n"
+#~ "\n"
+#~ "🔈  Role: {user.role}\n"
+#~ "💸  Баланс: {balance} ₴\n"
+#~ "🔑  Ваш код: {user.telegram_id}\n"
+#~ "🔗  Ваша реферальная ссылка:  {referral_link}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Информация которую указали\n"
+#~ "\n"
+#~ "Наименование товара: {title}\n"
+#~ "Описание товара: {description}\n"
+#~ "Цена товара: {price}\n"
+#~ "Добавить товар?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "❌ Ошибка\n"
+#~ "🔖 Укажите только цифры, без пробелов и других символов"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пока бонус не доступный!\n"
+#~ "Он станет доступным завтра."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пока бонус не доступный!\n"
+#~ "Он станет доступным завтра в {time}."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Пока бонус не доступный!\n"
+#~ "Он станет доступным завтра в"
+#~ msgstr ""
+
